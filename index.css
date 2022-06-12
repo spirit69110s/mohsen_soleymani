@@ -1,0 +1,150 @@
+body{
+    
+    margin:0;
+    padding: 0;
+    
+}
+.banner img{
+    width:60%;
+    margin:auto;
+    display: block;
+}
+.banner{
+    border-bottom: 2px rgb(221, 77, 77);
+    background-color: #1f1f1f;
+}
+.nav{
+    background:black;
+    padding:20px 0;
+    text-align: center;
+    
+}
+.nav a {
+border-right:1px #d6d1cd dashed;
+padding: 0 10px;
+}
+.nav li , .nav a{
+    list-style: none;
+    color:#d6d1cd;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    
+    
+  
+}
+.nav li:last-child a{
+    border:none
+}
+.nav li:hover , .nav a:hover{
+    color:red;
+}
+.nav{
+    
+    border-bottom: 2px solid red;
+}
+.main .right {
+    width:80%;
+    display: flex;
+    background-image: url(background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    flex-direction: column;
+}
+.main .left{
+    width: 20%;
+    padding: 30px;
+    align-items: center;
+}
+
+
+.main .right .description{
+    direction: rtl;
+    box-sizing: border-box;
+    padding:30px;
+    
+}
+.main .right .section div{
+    width: 50%;
+}
+.main .right .img{
+    padding:10px;
+    
+}
+.main .right .img img{
+    width: 100%;
+    
+}
+.main .right .description h2{
+    color:red;
+    font-size: 40px;
+}
+.main .right .description p{
+    line-height: 30px;
+    font-size: 20px;
+    color:#d6d1cd;
+    
+}
+.main .right .description .tozih{
+    border-bottom: 1px red solid;
+    padding-bottom: 50px;
+}
+.main .right .description .price{
+    font-size: 25px;
+    text-align: center;
+    color:#fa9a4b
+}
+.main .right .description .price a{
+    background-color: red;
+    border-radius: 4px;
+    text-decoration: none;
+    color:black;
+    padding:5px 10px;
+}
+.main .right .description .price a:hover{
+    background-color: #df731a;
+}
+.main {
+    display: flex;
+    
+    background: url('background.jpg') cover no-repeat;
+
+}
+.main .left img{
+    width: 100%;
+    margin-top:35px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 1px rgba(255,255,255,1);
+}
+.main .left{
+    display: flex;
+    flex-direction: column;
+    border-right: #df731a 2px solid;
+    background-color: #1f1f1f;
+}
+.main .left h3{
+    color: #df731a;
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+}
+.main .left h3:before{
+    content:'----';
+    width:50px;
+    height: 3px;
+    color: #df731a;
+    padding-left: 15px;
+
+}
+.main .left h3:after {
+    content: '----';
+    width: 50px;
+    height: 3px;
+    color: #df731a;
+ padding-right: 15px;
+    
+}
+.section{
+    display: flex;
+}
